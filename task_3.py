@@ -7,4 +7,4 @@ print(*islice(res_list, max(len(names), len(grades))))
 try:
     print(next(res_list))
 except StopIteration:
-    print("Generator is empty")
+    print("Nothing else to do")
